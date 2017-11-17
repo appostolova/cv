@@ -1,476 +1,502 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<meta name="keywords" content="Front-End, Developer, Apostolova ">
-	<meta name="description" content="Front-End Developer CV">
-	<meta name="author" content="Apostolova">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="Front-End, Developer, Apostolova ">
+    <meta name="description" content="Front-End Developer CV">
+    <meta name="author" content="Apostolova">
 
-	<title>My CV</title>
+    <title>My CV</title>
 
-	<!-- CSS -->
-	<link href="bootstrap/css/bootstrap.min.css" rel="stylesheet" media="screen">
-	<link href="css/font-awesome.min.css" rel="stylesheet" media="screen">
-	<link href="css/simple-line-icons.css" rel="stylesheet" media="screen">
-	<link href="css/animate.css" rel="stylesheet">
-    
-	<!-- Custom styles CSS -->
-	<link href="css/style.css" rel="stylesheet" media="screen">
-    
+    <!-- CSS -->
+    <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet" media="screen">
+    <link href="css/font-awesome.min.css" rel="stylesheet" media="screen">
+    <link href="css/simple-line-icons.css" rel="stylesheet" media="screen">
+    <link href="css/animate.css" rel="stylesheet">
+    <link rel="stylesheet/less" type="text/css" href="style.less" />
+    <script src="js/less.min.js"></script>
+
+    <!-- Custom styles CSS -->
+    <link href="css/style.css" rel="stylesheet" media="screen">
+
     <script src="js/modernizr.custom.js"></script>
     <link rel="icon" type="image/png" href="images/favicon.png">
-       
+
 </head>
+
 <body>
 
-	<!-- Preloader -->
+    <!-- Preloader -->
 
-	<div id="preloader">
-		<div id="status"></div>
-	</div>
+    <div id="preloader">
+        <div id="status"></div>
+    </div>
 
-	<!-- Home start -->
+    <!-- Home start -->
 
-	<section id="home" class="pfblock-image screen-height">
+    <section id="home" class="pfblock-image screen-height">
         <div class="home-overlay"></div>
-		<div class="intro">
-			<div class="start">Hello, my name is Mariya Apostolova and I am</div>
-			<h1>Front-End Developer and HTML/CSS-coder</h1>
-		</div>
+        <div class="intro">
+            <div class="start">Hello, my name is Mariya Apostolova and I am</div>
+            <h1>Front-End Developer and HTML/CSS-coder</h1>
+        </div>
 
         <a href="#services">
-		<div class="scroll-down">
-            <span>
+            <div class="scroll-down">
+                <span>
                 <i class="fa fa-angle-down fa-2x"></i>
             </span>
-		</div>
+            </div>
         </a>
 
-	</section>
+    </section>
 
-	<!-- Home end -->
+    <!-- Home end -->
 
-	<!-- Navigation start -->
+    <!-- Navigation start -->
 
-	<header class="header">
+    <header class="header">
 
-		<nav class="navbar navbar-custom" role="navigation">
+        <nav class="navbar navbar-custom" role="navigation">
 
-			<div class="container">
+            <div class="container">
 
-				<div class="navbar-header">
-					<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#custom-collapse">
-						<span class="sr-only">Toggle navigation</span>
-						<span class="icon-bar"></span>
-						<span class="icon-bar"></span>
-						<span class="icon-bar"></span>
-					</button>
-					<a class="navbar-brand" href="index.html">Mariya Apostolova</a>
-				</div>
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#custom-collapse">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="index.html">Mariya Apostolova</a>
+                </div>
 
-				<div class="collapse navbar-collapse" id="custom-collapse">
-					<ul class="nav navbar-nav navbar-right">
-						<li><a href="#home">Home</a></li>
-						<li><a href="#services">About</a></li>
-                        <li><a href="#experience">Experience</a></li>
-                        <li><a href="#skills">Skills</a></li>
-                        <li><a href="#education">Education</a></li>
-                        <li><a href="#portfolio">My Projects</a></li>
-						<li><a href="#contact">Contact</a></li>
-					</ul>
-				</div>
+                <div class="collapse navbar-collapse" id="custom-collapse">
+                    <ul class="nav navbar-nav navbar-right">
+                        <li><a href="#home">Home</a>
+                        </li>
+                        <li><a href="#services">About</a>
+                        </li>
+                        <li><a href="#experience">Experience</a>
+                        </li>
+                        <li><a href="#skills">Skills</a>
+                        </li>
+                        <li><a href="#education">Education</a>
+                        </li>
+                        <li><a href="#portfolio">My Projects</a>
+                        </li>
+                        <li><a href="#contact">Contact</a>
+                        </li>
+                    </ul>
+                </div>
 
-			</div><!-- .container -->
+            </div>
+            <!-- .container -->
 
-		</nav>
+        </nav>
 
-	</header>
+    </header>
 
-	<!-- Navigation end -->
+    <!-- Navigation end -->
 
     <!-- Services start -->
 
-	<section id="services" class="pfblock pfblock-gray">
-		<div class="container">
-			<div class="row">
-				<div class="pfblock-header wow fadeInUp">
-						<h2 class="pfblock-title">About Me</h2>
-						<div class="pfblock-line"></div>
-						<div class="pfblock-subtitle">
-							<p>My name is Maria Apostolova. I live in Odessa. I want to get the position of Frontend Developer.</p>
-							<p>I am an enthusiastic, self-motivated, reliable, responsible and hard working person. I am a mature team worker and adaptable to all challenging situations. I am able to work well both in a team environment as well as using own initiative. I am able to work well under pressure and adhere to strict deadlines.</p>
-						</div>
-						<div id="button-cv" class="col-md-12 col-lg-12 calltoaction-btn wow slideInRight" data-wow-delay=".3s">
-					<a href= "#" class="btn-cv btn-lg">Downlode CV</a>
-					</div>
+    <section id="services" class="pfblock pfblock-gray">
+        <div class="container">
+            <div class="row">
+                <div class="pfblock-header wow fadeInUp">
+                    <h2 class="pfblock-title">About Me</h2>
+                    <div class="pfblock-line"></div>
+                    <div class="col-sm-2">
+                        <img src="images/my-foto.jpg" class="img-circle" alt="Cinque Terre">
+                    </div>
+                    <div class="col-sm-10 pfblock-subtitle">
+                        <p>My name is Maria Apostolova. I live in Odessa. I want to get the position of Frontend Developer.</p>
+                        <p>I am an enthusiastic, self-motivated, reliable, responsible and hard working person. I am a mature team worker and adaptable to all challenging situations. I am able to work well both in a team environment as well as using own initiative. I am able to work well under pressure and adhere to strict deadlines.</p>
+                    </div>
+                </div>
 
-				</div>
+            </div>
 
-			</div>
+        </div>
+        <!-- .container -->
+    </section>
+    <section id="experience" class="pfblock">
+        <div class="container">
+            <div class="row">
+                <div class="pfblock-header wow fadeInUp">
+                    <h2 class="pfblock-title">Experience</h2>
+                    <div class="pfblock-line"></div>
+                </div>
+                <div class="row work">
+                    <div class="col-sm-5  work-left">
+                        <h3>Freelans</h3>
+                        <div class="pfblock-line-work"></div>
+                        <p>2017 - present</p>
+                    </div>
+                    <div class="col-sm-2 icon">
+                        <span class="glyphicon glyphicon-briefcase"></span>
+                    </div>
+                    <div class="col-sm-5 work-right">
+                        <h3>Front End Developer</h3>
+                        <div class="pfblock-line-work"></div>
+                        <p>Site development using HTML, CSS, JavaScript/jQuery. Цriting, debugging, code testing. Development of site elements. Development of simple (single-page) business card sites.</p>
+                    </div>
+                </div>
+                <div class="row work">
+                    <div class="col-sm-5 work-left">
+                        <h3>LTD Total Fluid Managment</h3>
+                        <div class="pfblock-line-work"></div>
+                        <p>december 2011 - september 2017</p>
+                    </div>
+                    <div class="col-sm-2 icon">
+                        <span class="glyphicon glyphicon-briefcase"></span>
+                    </div>
+                    <div class="col-sm-5 work-right">
+                        <h3>Specialist in working with customers.</h3>
+                        <div class="pfblock-line-work"></div>
+                        <p>Working with the company's customers, an extract of primary accounting documents.Warehouse Logistics.</p>
+                    </div>
+                </div>
+            </div>
+    </section>
 
-		</div><!-- .container -->
-	</section>
-	<section id="experience" class="pfblock">
-		<div class="container">
-			<div class="row">
-				<div class="pfblock-header wow fadeInUp">
-					<h2 class="pfblock-title">Experience</h2>
-					<div class="pfblock-line"></div>
-					</div >
-					<div class="row work">
-					<div class="col-sm-5  work-left">
-						<h3>Freelans</h3>
-						<div class="pfblock-line-work"></div>
-						<p>2017 - present</p>
-					</div>
-					<div class="col-sm-2 icon">
-						<span class="glyphicon glyphicon-briefcase"></span>
-					</div>
-					<div class="col-sm-5 work-right">
-						<h3>Front End Developer</h3>
-						<div class="pfblock-line-work"></div>
-						<p>Site development using HTML, CSS, JavaScript/jQuery. Цriting, debugging, code testing. Development of site elements. Development of simple (single-page) business card sites.</p>
-					</div>	
-					</div>
-				<div class="row work">
-					<div class="col-sm-5 work-left">
-						<h3>LTD Total Fluid Managment</h3>
-						<div class="pfblock-line-work"></div>
-						<p>december 2011 - september 2017</p>
-					</div>
-					<div class="col-sm-2 icon">
-						<span class="glyphicon glyphicon-briefcase"></span>
-					</div>
-					<div class="col-sm-5 work-right">
-						<h3>Specialist in working with customers.</h3>
-						<div class="pfblock-line-work"></div>
-						<p>Working with the company's customers, an extract of primary accounting documents.Warehouse Logistics.</p>
-					</div>	
-				</div>
-			</div>
-		</section >
+    <!-- Skills start -->
 
-<!-- Skills start -->
-    
     <section class="pfblock-gray" id="skills">
-		
-			<div class="container">
-			
-				<div class="row skills">
-					
-					<div class="row">
 
-                        <div class="col-sm-6 col-sm-offset-3">
+        <div class="container">
 
-                            <div class="pfblock-header wow fadeInUp">
-                                <h2 class="pfblock-title">My Skills</h2>
-                                <div class="pfblock-line"></div>
-                            </div>
+            <div class="row skills">
 
+                <div class="row">
+
+                    <div class="col-sm-6 col-sm-offset-3">
+
+                        <div class="pfblock-header wow fadeInUp">
+                            <h2 class="pfblock-title">My Skills</h2>
+                            <div class="pfblock-line"></div>
                         </div>
 
-                    </div><!-- .row -->
-						<div class="skills-info text-center">
-						<div class="col-md-6 bar-grids">
-							<h3>HTML 5<span> 80% </span></h3>
-							<div class="progress">
-								<div class="progress-bar progress-bar-striped active" style="width: 80%">
-								</div>
-							</div>
-							<h3>PHOTOSHOP <span> 75% </span></h3>
-							<div class="progress">
-								<div class="progress-bar progress-bar-striped active" style="width: 75%">
-								</div>
-							</div>
-						</div>
-						<div class="col-md-6 bar-grids">
-							<h3>CSS 3<span> 75% </span></h3>
-							<div class="progress">
-								<div class="progress-bar progress-bar-striped active" style="width: 75%">
-								</div>
-							</div>
-							<h3>BOOTSTRAP 3<span> 80% </span></h3>
-							<div class="progress">
-								<div class="progress-bar progress-bar-striped active" style="width: 80%">
-								</div>
-							</div>
-						</div>
-							<div class="col-md-6 bar-grids">
-							<h3>Javascript<span> 75% </span></h3>
-							<div class="progress">
-								<div class="progress-bar progress-bar-striped active" style="width: 75%">
-								</div>
-							</div>
-						</div>	
-							<div class="col-md-6 bar-grids">
-							<h3>JQuery<span> 60% </span></h3>
-							<div class="progress">
-								<div class="progress-bar progress-bar-striped active" style="width: 60%">
-								</div>
-							</div>
-						</div>
-					</div>
-					
-				</div><!--End row -->
-			
-			</div>
-		
+                    </div>
+
+                </div>
+                <!-- .row -->
+                <div class="skills-info text-center">
+                    <div class="col-md-6 bar-grids">
+                        <h3>HTML 5<span> 80% </span></h3>
+                        <div class="progress">
+                            <div class="progress-bar progress-bar-striped active" style="width: 80%">
+                            </div>
+                        </div>
+                        <h3>PHOTOSHOP <span> 75% </span></h3>
+                        <div class="progress">
+                            <div class="progress-bar progress-bar-striped active" style="width: 75%">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 bar-grids">
+                        <h3>CSS 3<span> 75% </span></h3>
+                        <div class="progress">
+                            <div class="progress-bar progress-bar-striped active" style="width: 75%">
+                            </div>
+                        </div>
+                        <h3>BOOTSTRAP 3<span> 80% </span></h3>
+                        <div class="progress">
+                            <div class="progress-bar progress-bar-striped active" style="width: 80%">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 bar-grids">
+                        <h3>Javascript<span> 75% </span></h3>
+                        <div class="progress">
+                            <div class="progress-bar progress-bar-striped active" style="width: 75%">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 bar-grids">
+                        <h3>JQuery<span> 60% </span></h3>
+                        <div class="progress">
+                            <div class="progress-bar progress-bar-striped active" style="width: 60%">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <!--End row -->
+
+        </div>
+
     </section>
-    
-    <!-- Skills end -->			
-	<section id="education" class="pfblock">
-		<div class="container">
-			<div class="row">
-				<div class="pfblock-header wow fadeInUp">
-					<h2 class="pfblock-title">Education</h2>
-					<div class="pfblock-line"></div>
-				</div>
-				<div class="row work">
-					<div class="col-sm-5 work-left">
-						<h3>Main Academy</h3>
-						<div class="pfblock-line-work"></div>
-						<p>2017 - present</p>
-					</div>
-					<div class="col-sm-2 icon">
-						<i class="fa fa-graduation-cap" aria-hidden="true"></i>
-					</div>
-					<div class="col-sm-5 work-right">
-						<h3>Front End Developer</h3>
-						<div class="pfblock-line-work"></div>
-						<p>Master the skills required to become a Front-End Web Developer, and start building beautiful, responsive websites optimized for mobile and desktop performance/</p>
-						<p>Learn the fundamentals of how the web works and gain a working knowledge of the three foundational languages that power each and every website: HTML, CSS and JavaScript.</p>
-					</div>	
-					</div>
-				<div class="row work">
-					<div class="col-sm-5 work-left">
-						<h3>Kiev National University of Technology and Design</h3>
-						<div class="pfblock-line-work"></div>
-						<p>2003</p>
-					</div>
-					<div class="col-sm-2 icon">
-						<i class="fa fa-graduation-cap" aria-hidden="true"></i>
-					</div>
-					<div class="col-sm-5 work-right-big">
-						<h3>Diploma of an engineer</h3>
-						<div class="pfblock-line-work"></div>
-						<p></p>
-					</div>	
-					</div>
-				
-			</div >
-		</div>
-		
-	</section >
-  
-	<!-- Portfolio start -->
 
-	<section id="portfolio" class="pfblock-gray">
-		<div class="container">
-			<div class="row">
-
-				<div class="col-sm-6 col-sm-offset-3">
-
-					<div class="pfblock-header wow fadeInUp">
-						<h2 class="pfblock-title">My projects</h2>
-						<div class="pfblock-line"></div>
-						<div class="pfblock-subtitle">
-					</div>
-					</div>
-
-				</div>
-
-			</div><!-- .row -->
-            
-            
+    <!-- Skills end -->
+    <section id="education" class="pfblock">
+        <div class="container">
             <div class="row">
-                
+                <div class="pfblock-header wow fadeInUp">
+                    <h2 class="pfblock-title">Education</h2>
+                    <div class="pfblock-line"></div>
+                </div>
+                <div class="row work">
+                    <div class="col-sm-5 work-left">
+                        <h3>Main Academy</h3>
+                        <div class="pfblock-line-work"></div>
+                        <p>2017 - present</p>
+                    </div>
+                    <div class="col-sm-2 icon">
+                        <i class="fa fa-graduation-cap" aria-hidden="true"></i>
+                    </div>
+                    <div class="col-sm-5 work-right">
+                        <h3>Front End Developer</h3>
+                        <div class="pfblock-line-work"></div>
+                        <p>Master the skills required to become a Front-End Web Developer, and start building beautiful, responsive websites optimized for mobile and desktop performance/</p>
+                        <p>Learn the fundamentals of how the web works and gain a working knowledge of the three foundational languages that power each and every website: HTML, CSS and JavaScript.</p>
+                    </div>
+                </div>
+                <div class="row work">
+                    <div class="col-sm-5 work-left">
+                        <h3>Kiev National University of Technology and Design</h3>
+                        <div class="pfblock-line-work"></div>
+                        <p>2003</p>
+                    </div>
+                    <div class="col-sm-2 icon">
+                        <i class="fa fa-graduation-cap" aria-hidden="true"></i>
+                    </div>
+                    <div class="col-sm-5 work-right-big">
+                        <h3>Diploma of an engineer</h3>
+                        <div class="pfblock-line-work"></div>
+                        <p></p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+    </section>
+
+    <!-- Portfolio start -->
+
+    <section id="portfolio" class="pfblock-gray">
+        <div class="container">
+            <div class="row">
+
+                <div class="col-sm-6 col-sm-offset-3">
+
+                    <div class="pfblock-header wow fadeInUp">
+                        <h2 class="pfblock-title">My projects</h2>
+                        <div class="pfblock-line"></div>
+                        <div class="pfblock-subtitle">
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+            <!-- .row -->
+
+
+            <div class="row">
+
                 <div class="col-xs-12 col-sm-4 col-md-4 portfolio-grids">
                     <div class="grid wow zoomIn">
-                    	<div class="grid">
-                    		<a href="http://apostolova.zzz.com.ua/hobby/" target="_blank">
-                    		<img src="images/portfolio/g1.jpg" alt="img01" class="img-responsive"/>	
-                    		<div class="figcaption">
-							<h3>My<span> Project</span></h3>
-							<p>Used tehnologies:</p>
-							<p>HTML5, CSS3, JavaScript</p>
-						</div>
-                    </a>
-                  </div>
-            </div>
-        </div>
+                        <div class="grid">
+                            <a href="http://apostolova.zzz.com.ua/hobby/" target="_blank">
+                                <img src="images/portfolio/g1.jpg" alt="img01" class="img-responsive" />
+                                <div class="figcaption">
+                                    <h3>My<span> Project</span></h3>
+                                    <p>Used tehnologies:</p>
+                                    <p>HTML5, CSS3, JavaScript</p>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
 
                 <div class="col-xs-12 col-sm-4 col-md-4 portfolio-grids">
                     <div class="grid wow zoomIn">
-                    	<div class="grid">
-                    		<a href="http://apostolova.zzz.com.ua/template/" target="_blank">
-                    		<img src="images/portfolio/g2.jpg" alt="img02" class="img-responsive"/>	
-                    		<div class="figcaption">
-							<h3>My<span> Project</span></h3>
-							<p>Used tehnologies:</p>
-							<p>BOOTSTRAP, HTML5, CSS3, JavaScript</p>
-						</div>
-                    </a>
-                  </div>
-            </div>
-        </div>
-                
-               <div class="col-xs-12 col-sm-4 col-md-4 portfolio-grids">
+                        <div class="grid">
+                            <a href="http://apostolova.zzz.com.ua/template/" target="_blank">
+                                <img src="images/portfolio/g2.jpg" alt="img02" class="img-responsive" />
+                                <div class="figcaption">
+                                    <h3>My<span> Project</span></h3>
+                                    <p>Used tehnologies:</p>
+                                    <p>BOOTSTRAP, HTML5, CSS3, JavaScript</p>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-xs-12 col-sm-4 col-md-4 portfolio-grids">
                     <div class="grid wow zoomIn">
-                    	<div class="grid">
-                    		<a href="http://apostolova.zzz.com.ua/bootstrap/" target="_blank">
-                    		<img src="images/portfolio/g3.jpg" alt="img03" class="img-responsive"/>	
-                    		<div class="figcaption">
-							<h3>My<span> Project</span></h3>
-							<p>Used tehnologies:</p>
-							<p>HTML5, CSS3, JavaScript</p>
-						</div>
-                    </a>
-                  </div>
-            </div>
-        </div>
-         	<div class="col-xs-12 col-sm-4 col-md-4"></div>            
-            <div class="col-xs-12 col-sm-4 col-md-4 portfolio-grids">
+                        <div class="grid">
+                            <a href="http://apostolova.zzz.com.ua/bootstrap/" target="_blank">
+                                <img src="images/portfolio/g3.jpg" alt="img03" class="img-responsive" />
+                                <div class="figcaption">
+                                    <h3>My<span> Project</span></h3>
+                                    <p>Used tehnologies:</p>
+                                    <p>HTML5, CSS3, JavaScript</p>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xs-12 col-sm-4 col-md-4"></div>
+                <div class="col-xs-12 col-sm-4 col-md-4 portfolio-grids">
                     <div class="grid wow zoomIn">
-                    	<div class="grid">
-                    		<a href="http://apostolova.zzz.com.ua/game/" target="_blank">
-                    		<img src="images/portfolio/g4.jpg" alt="img04" class="img-responsive"/>	
-                    		<div class="figcaption">
-							<h3>My<span> Project</span></h3>
-							<p>Used tehnologies:</p>
-							<p>HTML5, CSS3, JavaScript</p>
-						</div>
-                    </a>
-                  </div>
+                        <div class="grid">
+                            <a href="http://apostolova.zzz.com.ua/game/" target="_blank">
+                                <img src="images/portfolio/g4.jpg" alt="img04" class="img-responsive" />
+                                <div class="figcaption">
+                                    <h3>My<span> Project</span></h3>
+                                    <p>Used tehnologies:</p>
+                                    <p>HTML5, CSS3, JavaScript</p>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
             </div>
+
+
         </div>
+        <!-- .contaier -->
+
+    </section>
+
+    <!-- Portfolio end -->
+
+
+    <!-- CallToAction start -->
+
+    <section class="calltoaction">
+        <div class="container">
+
+            <div class="row">
+
+                <div class="col-md-12 col-lg-12">
+                    <h2 class="wow slideInRight" data-wow-delay=".1s">ARE YOU READY TO START?</h2>
+                    <div class="calltoaction-decription wow slideInRight" data-wow-delay=".2s">
+                        I'm available for freelance projects.
+                    </div>
+                </div>
+
+                <div class="col-md-12 col-lg-12 calltoaction-btn wow slideInRight" data-wow-delay=".3s">
+                    <a href="#contact" class="btn btn-lg">Hire Me</a>
+                </div>
 
             </div>
+            <!-- .row -->
+        </div>
+        <!-- .container -->
+    </section>
 
+    <!-- CallToAction end -->
 
-		</div><!-- .contaier -->
+    <!-- Contact start -->
 
-	</section>
+    <section id="contact" class="pfblock">
+        <div class="container">
+            <div class="row">
 
-	<!-- Portfolio end -->
-  
+                <div class="col-sm-6 col-sm-offset-3">
 
-	<!-- CallToAction start -->
+                    <div class="pfblock-header">
+                        <h2 class="pfblock-title">Drop me a line</h2>
+                        <div class="pfblock-line"></div>
+                        <div class="pfblock-subtitle"></div>
+                    </div>
+                </div>
 
-	<section class="calltoaction">
-		<div class="container">
+            </div>
+            <!-- .row -->
 
-			<div class="row">
+            <div class="row">
 
-				<div class="col-md-12 col-lg-12">
-					<h2 class="wow slideInRight" data-wow-delay=".1s">ARE YOU READY TO START?</h2>
-					<div class="calltoaction-decription wow slideInRight" data-wow-delay=".2s">
-						I'm available for freelance projects.
-					</div>
-				</div>
+                <div class="col-sm-6 col-sm-offset-3">
 
-				<div class="col-md-12 col-lg-12 calltoaction-btn wow slideInRight" data-wow-delay=".3s">
-					<a href="#contact" class="btn btn-lg">Hire Me</a>
-				</div>
+                    <form action="contact.php" method="post" id="contact-form" role="form">
+                        <div class="ajax-hidden">
+                            <div class="form-group wow fadeInUp">
+                                <label class="sr-only" for="name">Name</label>
+                                <input type="text" id="name" class="form-control" name="name" placeholder="Name">
+                            </div>
 
-			</div><!-- .row -->
-		</div><!-- .container -->
-	</section>
+                            <div class="form-group wow fadeInUp" data-wow-delay=".1s">
+                                <label class="sr-only" for="email">Email</label>
+                                <input type="email" id="email" class="form-control" name="email" placeholder="E-mail">
+                            </div>
 
-	<!-- CallToAction end -->
+                            <div class="form-group wow fadeInUp" data-wow-delay=".2s">
+                                <textarea class="form-control" id="message" name="message" rows="5" placeholder="Message"></textarea>
+                            </div>
 
-	<!-- Contact start -->
+                            <button type="submit" id="form-submit" class="btn btn-lg btn-block wow fadeInUp" data-wow-delay=".3s" name="send">Send Message</button>
+                        </div>
+                        <div class="ajax-response"></div>
+                    </form>
 
-	<section id="contact" class="pfblock">
-		<div class="container">
-			<div class="row">
+                </div>
 
-				<div class="col-sm-6 col-sm-offset-3">
+            </div>
+            <!-- .row -->
+        </div>
+        <!-- .container -->
+    </section>
 
-					<div class="pfblock-header">
-						<h2 class="pfblock-title">Drop me a line</h2>
-						<div class="pfblock-line"></div>
-						<div class="pfblock-subtitle"></div>
-					</div>
-				</div>
+    <!-- Contact end -->
 
-			</div><!-- .row -->
+    <!-- Footer start -->
 
-			<div class="row">
+    <footer id="footer">
+        <div class="container">
+            <div class="row">
 
-				<div class="col-sm-6 col-sm-offset-3">
+                <div class="col-sm-12">
 
-					<form  action="contact.php" method="post" id="contact-form" role="form">
-						<div class="ajax-hidden">
-							<div class="form-group wow fadeInUp">
-								<label class="sr-only" for="name">Name</label>
-								<input type="text" id="name" class="form-control" name="name" placeholder="Name">
-							</div>
+                    <ul class="social-links">
+                        <li><a href="https://www.facebook.com/profile.php?id=100001236115244&ref=bookmarks" class="wow fadeInUp" target="_blank"><i class="fa fa-facebook"></i></a>
+                        </li>
+                        <li><a href="https://plus.google.com/u/0/104409793073548322440" class="wow fadeInUp" data-wow-delay=".2s" target="_blank"><i class="fa fa-google-plus"></i></a>
+                        </li>
+                    </ul>
 
-							<div class="form-group wow fadeInUp" data-wow-delay=".1s">
-								<label class="sr-only" for="email">Email</label>
-								<input type="email" id="email" class="form-control" name="email" placeholder="E-mail">
-							</div>
+                </div>
 
-							<div class="form-group wow fadeInUp" data-wow-delay=".2s">
-								<textarea class="form-control" id="message" name="message" rows="5" placeholder="Message"></textarea>
-							</div>
+            </div>
+            <!-- .row -->
+        </div>
+        <!-- .container -->
+    </footer>
 
-							<button  type="submit" id="form-submit" class="btn btn-lg btn-block wow fadeInUp" data-wow-delay=".3s" name="send">Send Message</button>
-						</div>
-						<div class="ajax-response"></div>
-					</form>
+    <!-- Footer end -->
 
-				</div>
+    <!-- Scroll to top -->
 
-			</div><!-- .row -->
-		</div><!-- .container -->
-	</section>
+    <div class="scroll-up">
+        <a href="#home"><i class="fa fa-angle-up"></i></a>
+    </div>
 
-	<!-- Contact end -->
-
-	<!-- Footer start -->
-
-	<footer id="footer">
-		<div class="container">
-			<div class="row">
-
-				<div class="col-sm-12">
-
-					<ul class="social-links">
-						<li><a href="https://www.facebook.com/profile.php?id=100001236115244&ref=bookmarks" class="wow fadeInUp" target="_blank"><i class="fa fa-facebook"></i></a></li>
-						<li><a href="https://plus.google.com/u/0/104409793073548322440" class="wow fadeInUp" data-wow-delay=".2s" target="_blank"><i class="fa fa-google-plus"></i></a></li>
-					</ul>
-
-					</div>
-
-			</div><!-- .row -->
-		</div><!-- .container -->
-	</footer>
-
-	<!-- Footer end -->
-
-	<!-- Scroll to top -->
-
-	<div class="scroll-up">
-		<a href="#home"><i class="fa fa-angle-up"></i></a>
-	</div>
-    
     <!-- Scroll to top end-->
 
-	<!-- Javascript files -->
+    <!-- Javascript files -->
 
-	<script src="js/jquery-1.11.1.min.js"></script>
-	<script src="bootstrap/js/bootstrap.min.js"></script>
-	<script src="js/jquery.parallax-1.1.3.js"></script>
-	<script src="js/imagesloaded.pkgd.js"></script>
-	<script src="js/jquery.sticky.js"></script>
-	<script src="js/smoothscroll.js"></script>
-	<script src="js/wow.min.js"></script>
+    <script src="js/jquery-1.11.1.min.js"></script>
+    <script src="bootstrap/js/bootstrap.min.js"></script>
+    <script src="js/jquery.parallax-1.1.3.js"></script>
+    <script src="js/imagesloaded.pkgd.js"></script>
+    <script src="js/jquery.sticky.js"></script>
+    <script src="js/smoothscroll.js"></script>
+    <script src="js/wow.min.js"></script>
     <script src="js/jquery.easypiechart.js"></script>
     <script src="js/waypoints.min.js"></script>
     <script src="js/jquery.cbpQTRotator.js"></script>
-	<script src="js/custom.js"></script>
+    <script src="js/custom.js"></script>
 
 </body>
+
 </html>

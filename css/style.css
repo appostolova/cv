@@ -340,6 +340,10 @@ textarea.form-control {
 .long-down {
 	margin-bottom: 40px;
 }
+.img-circle{
+	width: 150px;
+	height: 150px
+}
 
 /* ---------------------------------------------- /*
  * Home
